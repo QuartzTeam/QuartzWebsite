@@ -17,17 +17,18 @@ Open the Quartz menu in-game and select **Discord** from the sidebar.
 
 ## Browsing and messaging
 
-The left rail lists your servers and **Direct Messages**; picking one loads its channel list beside it. Locked channels show a lock icon and can't be opened. Select a channel to load its recent messages, then type in the box at the bottom and press **Send** (or Enter) to post.
+The left rail lists your servers and **Direct Messages**, each with its own icon; picking one loads its channel list beside it. Locked channels show a lock icon and can't be opened. Select a channel to load its recent messages, then type in the box at the bottom and press **Send** (or Enter) to post. Channels created, renamed, or deleted while you're looking at a server are picked up as they happen, and the lists keep their scroll position when the page redraws.
+
+Messages are rendered the way Discord shows them: profile pictures, standard and custom server emoji as pictures, and the usual formatting — bold, italics, underline, strikethrough, headings, subtext, bullet lists, quotes, spoilers, inline code and code blocks, and links shown by their label. Mentions of people and channels show their names, and timestamps are converted to your local time; typing `@name` in the composer turns it back into a real mention when you send. Several messages in a row from the same person are grouped under one name and timestamp.
+
+!!! note
+    Animated emoji are drawn as a still frame.
 
 ## Voice chat
 
 Open a voice channel and press **Join Voice** in the bar above the chat to connect; the same button becomes **Disconnect** once you're in. While connected, **Mute**/**Unmute** toggles your microphone, and the status line shows the end-to-end encryption state along with live sent/received/dropped audio frame counts.
 
-Voice needs a small native runtime that isn't bundled with Quartz. Scroll down to the **Voice** section and press **Install Voice Runtime** — it shows your platform, the installed version, and live install progress. **Remove Voice Runtime** takes it back out.
+Voice needs a small native runtime that isn't bundled with Quartz. You don't have to fetch it yourself — the first time you join a call, Quartz downloads and installs it, with progress on the status line.
 
 !!! note "Not available on every platform"
-    If no voice runtime is published for your platform, voice chat isn't available, and the **Voice** section says so.
-
-## Diagnostics
-
-**Test Connection**, below the Discord window, checks HTTPS, gateway, and crypto connectivity separately — useful for narrowing down why login or voice isn't working.
+    If no voice runtime is published for your platform, voice chat isn't available, and the status line says so when you try to join.

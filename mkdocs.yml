@@ -83,6 +83,7 @@ nav:
           - Progress Bar: features/progress-bar.md
           - Song Title: features/song-title.md
           - Panels: features/panels.md
+          - Too Much Accuracy: features/accuracy.md
       - Editor: features/editor.md
       - Visual & Gameplay tweaks:
           - Planet Colors: features/planet-colors.md

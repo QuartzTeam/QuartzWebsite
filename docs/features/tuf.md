@@ -16,13 +16,15 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 - **Quantum** — an opt-in second range bar for quantum difficulties. Turn it off and it folds away entirely.
 - **Special** — a flyout with **Unranked**, **Censored**, and **Impossible** checkboxes for including special-difficulty levels.
 - **Installed** — switches the list to your own library; see [Your library](#your-library) below.
-- **Updates** — checks every level you've downloaded against TUF and tells you how many have a newer version waiting. The chip counts them once it's finished.
+- **Updates** — checks every level you've downloaded against TUF and tells you how many have a newer version waiting. Quartz also runs this check on its own once a day, so the count is usually already there. Once updates are waiting the chip reads **Update all**, and pressing it queues every one of them.
 - **Grid View** — lays the levels out as a grid of cards instead of one long column. The number of columns follows the window width as you resize, and the choice sticks between sessions.
 - Scrolling near the bottom loads the next page automatically.
 
 ### Downloading and playing
 
 The button on each card walks through the whole flow: **Download** fetches and unpacks the level, then turns into **Load**, which opens the chart directly in the editor — no manual file handling. If an archive contains several playable charts, a chooser lists them so you can pick.
+
+You don't have to wait for one download to finish before starting the next. Press **Download** on another level and it joins a queue, showing **Queued** with its place in line; pressing it again takes it back out. Only launching a level holds the rest of the list.
 
 **Load** works from anywhere, including the middle of a run. If you're playing a level when you press it, Quartz leaves play mode for you and opens the new chart in the editor you were already in.
 
