@@ -1,0 +1,29 @@
+docs/features/accuracy.md
+  s_eb1cc316a0f131::t_3f22535bac7218 1-35
+docs/features/countdown.md
+  s_eb1cc316a0f131::t_46752c024e7010 30-31
+docs/features/discord.md
+  s_eb1cc316a0f131::t_c37c80430ff8ab 20-25,31,34
+docs/features/index.md
+  s_eb1cc316a0f131::t_4511b770c417f0 25
+docs/features/tuf.md
+  s_eb1cc316a0f131::t_756a006a754c4b 19,27-28
+mkdocs.yml
+  s_eb1cc316a0f131::t_4f4e7a848bb693 86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "83d07eab85503f99d34485d687d612a34e5bbc18",
+  "prompts": {},
+  "sessions": {
+    "s_eb1cc316a0f131": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f07a9a99-06a1-48d3-874a-4b9c49c77779",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
