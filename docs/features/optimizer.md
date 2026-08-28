@@ -16,4 +16,11 @@ Open the Quartz menu in-game and pick **Tweaks → Optimizer** from the sidebar.
 - **Lossy Texture Compression** — compresses custom textures loaded from disk to cut their memory use roughly 4–8x, with a small visual quality cost. Applies to textures loaded after it's turned on.
 - **Fast Bloom** — forces the game's bloom post-process onto its cheaper, lower-quality path while bloom is active. Targets real GPU work and can improve FPS on bloom-heavy levels, at the cost of softer, less precise bloom.
 - **Skip No-Op Screen Filters** — skips full-screen shader passes when their current values are visually identical to doing nothing, replacing them with a plain copy. Removes real render work without changing any existing game setting.
+- **Skip Redundant Screen Rescales** — the game rescales its full-screen flash quads every frame from the camera's size and aspect, even when neither has changed. This skips that frame's work whenever both match the last frame, and lets the game run normally the moment either moves.
+- **Skip Idle Particle Updates** — particle decorations write their shape scale and simulation speed into the engine every frame whether or not they changed; this skips the writes while the values and the song pitch are unchanged. Paused in the editor, and re-armed whenever a particle event reloads, so nothing goes stale.
+- **Pause Off-Screen Particles** — forces particle decorations to stop simulating while they're off camera, instead of the game deciding per system. Saves real CPU on particle-heavy levels, but a system that scrolls back into view resumes where it paused rather than catching up, so its timing can differ. Off by default.
 - **Render All Hit Sounds** — for extremely dense charts where the game's hit-sound voices can't keep up and overlapping hits go silent: mixes all of a level's scheduled hit sounds into a continuous rendered track on a background thread and plays that instead, so none are lost. It replaces the game's own hit sounds while active and costs a little CPU and memory during play. Off by default.
+
+## Credits
+
+**Skip Redundant Screen Rescales**, **Skip Idle Particle Updates**, and **Pause Off-Screen Particles** are ported from [Iridium](https://github.com/adofaiex/Iridium) by **Xbodwf**.

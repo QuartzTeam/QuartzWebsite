@@ -92,6 +92,7 @@ nav:
           - Hide Judgements: features/hide-judgements.md
           - UI Hider: features/ui-hider.md
           - Otto Icon: features/otto-icon.md
+          - Tile Arc: features/tile-arc.md
           - Tweaks: features/tweaks.md
           - Optimizer: features/optimizer.md
           - In-Game Overlay Fonts: features/in-game-overlay.md

@@ -22,7 +22,7 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button at t
 | [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar or a thin line along the screen edge. |
 | [Song Title](song-title.md) | Shows the current song's artist and title in-game. |
 | [Panels](panels.md) | Build your own stat overlays from any tracked stat, plus your own text and images. |
-| [Too Much Accuracy](accuracy.md) | Per-hit accuracy scoring (JEA and NEA), death markers, a per-tile run log, and JSON export. |
+| [Too Much Accuracy](accuracy.md) | Per-hit accuracy scoring with a tunable curve and combo, death markers, a per-tile run log, and JSON export. |
 
 ## Editor
 
@@ -40,6 +40,7 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button at t
 | [Hide Judgements](hide-judgements.md) | Hide the game's own per-hit judgement popups, one grade at a time. |
 | [UI Hider](ui-hider.md) | Hide parts of the game's own UI, with separate Playing/Recording profiles. |
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |
+| [Tile Arc](tile-arc.md) | Round the outer corner of every tile turn, with an adjustable arc intensity. |
 | [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
 | [Optimizer](optimizer.md) | Performance toggles: garbage-collection timing, process priority, bloom, and more. |
 | [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font, at a per-target size, to the game's own level title, countdown, and judgement popup. |
@@ -55,7 +56,7 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 | [Chatter Blocker](chatter-blocker.md) | Drop rapid repeat presses from a chattering key. |
 | [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
 | [Practice Difficulty](practice.md) | Bind keys to a difficulty and a pitch, and switch between them without leaving the level. |
-| [Countdown](countdown.md) | Replace the checkpoint and editor play-test countdown with a slowed-down lead-in, or a metronome you start yourself. |
+| [Countdown](countdown.md) | Slow the checkpoint and editor play-test countdown into a lead-in you can actually count. |
 
 ## Utility
 

@@ -21,6 +21,8 @@ The left rail lists your servers and **Direct Messages**, each with its own icon
 
 Messages are rendered the way Discord shows them: profile pictures, standard and custom server emoji as pictures, and the usual formatting — bold, italics, underline, strikethrough, headings, subtext, bullet lists, quotes, spoilers, inline code and code blocks, and links shown by their label. Mentions of people and channels show their names, and timestamps are converted to your local time; typing `@name` in the composer turns it back into a real mention when you send. Several messages in a row from the same person are grouped under one name and timestamp.
 
+Pictures come through too: image attachments, linked media, and embed images render inline — up to four per message — while embeds show their title and description and any other attachment appears as a file line with its name.
+
 !!! note
     Animated emoji are drawn as a still frame.
 

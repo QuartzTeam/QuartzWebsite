@@ -4,13 +4,16 @@ A grab-bag of small gameplay and menu adjustments that don't fit under a bigger 
 
 ## Where to find it
 
-Most of these live on the **Tweaks** tab. A few — the ones that change how planets and tiles look during play — live under **Visual Tweaks** on the **Visuals** tab instead.
+These are three separate modules. **Tweaks** and **Main Menu** are pages on the **Tweaks** tab; **Visual Tweaks** — the settings that change how planets and tiles look during play — is a page on the **Visuals** tab.
 
-## On the Tweaks tab
+## Tweaks
 
 - **Disable Auto Pause** — while auto-play is on, the game normally pauses itself (e.g. when the window loses focus); this blocks those automatic pauses. Pausing manually still works.
 - **Block Scroll While Playing** — ignores mouse-wheel input while a level is playing, so an accidental scroll can't affect the run.
-- **Main Menu** — **Disable Menu Music** mutes the title/island-select theme; **Custom Menu BPM** sets the menu rabbit's two speeds instead of the default 1x/2x (re-open the menu to apply).
+
+## Main Menu (its own page on the Tweaks tab)
+
+- **Disable Menu Music** mutes the title/island-select theme; **Custom Menu BPM** sets the menu rabbit's two speeds instead of the default 1x/2x (re-open the menu to apply).
 
 ## Visual Tweaks (on the Visuals tab)
 
