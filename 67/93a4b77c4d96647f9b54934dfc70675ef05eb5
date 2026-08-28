@@ -1,0 +1,42 @@
+docs/features/modules.md
+  s_25445f963d616c::t_d12413ae216cee 28
+docs/features/tile-arc.md
+  s_25445f963d616c::t_a5925acdedede9 1-15
+docs/features/tweaks.md
+  s_25445f963d616c::t_98e2d0866b5618 7,9,13-16
+docs/features/accuracy.md
+  s_25445f963d616c::t_2c8db0840c88b0 3,9,11,13-15,17-26,30-31,40
+docs/features/discord.md
+  s_25445f963d616c::t_ba35b0911f77dd 24-25
+docs/features/profiles.md
+  s_25445f963d616c::t_3a7cc0e5e6ce75 16
+docs/features/index.md
+  s_25445f963d616c::t_25a04f0cb2bc48 25
+  s_25445f963d616c::t_57f48ecf6b0525 43
+  s_25445f963d616c::t_a62b1d490e3f20 59
+docs/features/countdown.md
+  s_25445f963d616c::t_516198efa69fda 3,9,11,20
+docs/features/optimizer.md
+  s_25445f963d616c::t_efd31de411d9a6 23-26
+  s_25445f963d616c::t_7d14152d801073 19-21
+docs/features/key-viewer.md
+  s_25445f963d616c::t_8691274579cc53 23-24
+mkdocs.yml
+  s_25445f963d616c::t_e8b9bcc7329908 95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "6793a4b77c4d96647f9b54934dfc70675ef05eb5",
+  "prompts": {},
+  "sessions": {
+    "s_25445f963d616c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "43e881dd-d3ad-4980-afe4-d1fbf6c77e74",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
