@@ -1,0 +1,25 @@
+docs/features/auto-deafen.md
+  s_6aff90065a7193::t_25fa3f6ec452e4 3
+docs/features/index.md
+  s_6aff90065a7193::t_2671e575119cf9 15
+docs/features/key-viewer.md
+  s_6aff90065a7193::t_04f2d4c7d42b20 36
+docs/features/profiles.md
+  s_6aff90065a7193::t_f785b09f206c8a 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "3f4f08146f561cd572de1c4a502e89182ed86f54",
+  "prompts": {},
+  "sessions": {
+    "s_6aff90065a7193": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "144e1813-c0eb-4331-a969-de8215d315a9",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
