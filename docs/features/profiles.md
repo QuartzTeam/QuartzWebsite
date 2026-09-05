@@ -10,7 +10,7 @@ Open the Quartz menu in-game and pick **Profiles** from the sidebar.
 
 The list shows every profile you have, with the current one marked **Active**.
 
-- **Add Profile** — type a name into **Profile Name**, then add it. The new profile starts from your current settings and switches to it straight away.
+- **Add Profile** — type a name into **Profile Name**, then add it. The new profile starts clean — only your language and the menu toggle key carry over — and switches to it straight away. If it can't be created, the page says so.
 - **Select** — switch to another profile. The menu rebuilds around it.
 - **Export** — save a profile as a `.qprofile` file you can back up or share.
 - **Import** — load a `.qprofile` file (or a legacy `.krprofile`) as a new profile. It isn't selected automatically, so importing never disturbs what you're using. If the profile carries settings for a feature you don't have installed, the matching modules are installed for you, so nothing in it silently goes missing.

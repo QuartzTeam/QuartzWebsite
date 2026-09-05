@@ -1,6 +1,6 @@
 # Auto Deafen
 
-Automatically deafens you on Discord once a run passes a percentage you choose, and undeafens on death or finish — handy for not hearing your voice chat blast through a recording, without remembering to toggle it yourself.
+Automatically deafens you on Discord once a run passes a percentage you choose, and undeafens the moment you die, finish, or leave the run — handy for not hearing your voice chat blast through a recording, without remembering to toggle it yourself.
 
 ## Where to find it
 
