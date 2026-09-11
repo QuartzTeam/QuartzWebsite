@@ -1,0 +1,29 @@
+docs/features/combo.md
+  s_50c9bce2b662ea::t_764db9f93391f5 17
+docs/features/hide-judgements.md
+  s_50c9bce2b662ea::t_394e3800b93f49 13
+docs/features/judgement.md
+  s_50c9bce2b662ea::t_72994b0ff8e80d 11
+docs/features/key-viewer.md
+  s_50c9bce2b662ea::t_8af296112adf35 24
+docs/features/restriction.md
+  s_50c9bce2b662ea::t_16897d005d0209 15
+docs/troubleshooting.md
+  s_50c9bce2b662ea::t_a209d08856d3dc 13-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ae84658ff064cd5d5990c3606e79ae89663a6b3d",
+  "prompts": {},
+  "sessions": {
+    "s_50c9bce2b662ea": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "98981910-8cad-44bd-974d-e600c0110104",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
