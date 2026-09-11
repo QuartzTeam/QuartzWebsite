@@ -12,7 +12,7 @@ Instantly fails the run the moment a hit breaks a rule you choose:
 
 - **Minimum Accuracy** — fail if a single hit's accuracy drops below a threshold.
 - **Pure Perfect Only** — anything less than a Perfect fails the run.
-- **X-Perfect Only** — same, but requires X-Perfect specifically (needs the XPerfect mod installed).
+- **X-Perfect Only** — same, but requires X-Perfect specifically (needs the XPerfect mod, or an ADOFAI version with X-Perfect built in (the r150 alpha and later)).
 - **No Too Early** — fail on a Too Early judgement.
 - **Custom Judgements** — pick exactly which judgements are allowed; anything else fails.
 
